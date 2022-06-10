@@ -67,7 +67,10 @@ a{
 .header{
     background-color: hsla(0,0%,100%,.95);
     box-shadow: rgb(218 216 216) 0px 10px 30px -10px;
-    padding: 20px;    
+    padding: 20px;transition:top .3s;
+    position: fixed;
+    width: 100%;
+    z-index: 98;
 }
 .logo{
     border: 2px solid black;
@@ -87,7 +90,6 @@ a{
 .nav-item-container{
     display: flex;
     gap: 4px;
-    /* margin: 0 100px 0 0; */
 }
 .nav-item-container li{
     list-style: none;   
@@ -110,7 +112,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 60px;
+    padding-top: 140px;
     
 }
 .hero-content,
